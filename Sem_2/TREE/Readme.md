@@ -299,3 +299,4 @@ void Tree::set_root(tnode* r){
 ![](https://github.com/K0Jl0vrat1238/Labs_PSTU_2023/blob/main/Sem_2/TREE/img/Дерево.png?raw=true)
 
 # 3 Видео работы
+https://youtu.be/KgwRdWMULFg
