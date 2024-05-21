@@ -556,4 +556,4 @@ void MainWindow::Dijkstra_algorithm(){
 # 2.2 UML
 ![](https://github.com/K0Jl0vrat1238/Labs_PSTU_2023/blob/main/Sem_2/Graph/img/Граффы.png?raw=True)
 # 3 Демонстрация работы
-https://www.youtube.com/watch?v=lJYsiGKaZJY
+https://youtu.be/C-Yc7vvNOiU
