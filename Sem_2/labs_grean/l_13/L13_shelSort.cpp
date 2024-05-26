@@ -18,7 +18,7 @@ void shellSort(int* arr, int n) {
 // Пример использования функции shellSort
 int main() {
     system("chcp 1251 >Null");
-    int arr[] = { 12, 34, 54, 2, 3 };
+    int arr[] = { 12, 34, 54, 2, 3, 7,9, 4,108,54,32,16 };
     int n = sizeof(arr) / sizeof(arr[0]);
 
     cout << "Исходный массив: \n";
