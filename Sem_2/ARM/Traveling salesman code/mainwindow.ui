@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>0</y>
+      <width>831</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>1280</width>
+      <height>550</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="sceneRect">
+     <rectf>
+      <x>0.000000000000000</x>
+      <y>0.000000000000000</y>
+      <width>1261.000000000000000</width>
+      <height>548.000000000000000</height>
+     </rectf>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Add_Node_Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>421</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>Добавить вершину</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Add_Edge_Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>185</y>
+      <width>210</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить ребро</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Output_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>235</x>
+      <y>180</y>
+      <width>50</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Input_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>315</x>
+      <y>180</y>
+      <width>50</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="weight_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>395</x>
+      <y>180</y>
+      <width>50</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>252</x>
+      <y>160</y>
+      <width>16</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Из</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>160</y>
+      <width>16</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>В</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>160</y>
+      <width>30</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Вес</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Delete_Edge_Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>210</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удалить ребро</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>247</x>
+      <y>70</y>
+      <width>16</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Из</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Input_Delete_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>90</y>
+      <width>50</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Output_Delete_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>90</y>
+      <width>50</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>70</y>
+      <width>16</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>В</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Delete_Node_Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>210</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удалить вершину</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Delete_node_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>30</y>
+      <width>50</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>37</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Номер</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Change_weight_Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>210</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Измениить вес</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="Output_algoritms">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>390</y>
+      <width>250</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Commis_Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>350</y>
+      <width>150</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>Задача Коммвояжёра</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
