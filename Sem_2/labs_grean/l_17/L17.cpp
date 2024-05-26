@@ -85,7 +85,7 @@ void KMP(const string& text, const string& pattern) {
             }
         }
     }
-    delete[] lps; // Не забудьте освободить выделенную память
+    delete[] lps;
 }
 
 int main() {
